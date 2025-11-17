@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EletricCarAPP</string>
+    <string name="title_preco">Preço</string>
+    <string name="title_bateria">Bateria</string>
+    <string name="title_potencia">Potência</string>">
+    <string name="title_recarga">Recarga</string>
+    <string name="eletric_car">Eletric Car</string>
+    <string name="favoritar">favoritar</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="carros">Carros</string>
+    <string name="pre_o_kwh">Preço KWh</string>
+    <string name="kms_percorridos">KMs Percorridos</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="calcular_autonomia">Calcular Autonomia</string>
+    <string name="voltar">Voltar</string>
+    <string name="carro">Carro</string>
+    <string name="ops_erro_de_conex_o">Ops, Erro de conexão! Tente novamente mais tarde.</string>">
+    <string name="saved_calc">saved_calc</string>">
+</resources>
