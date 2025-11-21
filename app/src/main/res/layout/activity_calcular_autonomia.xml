@@ -12,14 +12,12 @@
         android:layout_height="48dp"
         android:layout_marginTop="56dp"
         android:autofillHints=""
-        android:background="@color/gray"
         android:hint="@string/pre_o_kwh"
         android:inputType="numberDecimal"
         android:maxLength="10"
         android:paddingStart="16dp"
         android:paddingEnd="1dp"
         android:textColor="@color/black"
-        android:textColorHint="@color/black2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,18 +35,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_calcular" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_calcular"
         android:layout_width="314dp"
         android:layout_height="53dp"
         android:layout_marginTop="24dp"
-        android:backgroundTint="@color/green"
         android:text="@string/calcular"
-        android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_kmPercorrido" />
 
@@ -58,13 +53,13 @@
         android:layout_height="48dp"
         android:layout_marginTop="36dp"
         android:autofillHints=""
-        android:background="@color/gray"
+
         android:hint="@string/kms_percorridos"
         android:inputType="numberDecimal"
         android:paddingStart="16dp"
         android:paddingEnd="1dp"
         android:textColor="@color/black"
-        android:textColorHint="@color/black2"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,15 +78,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_voltar"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="46dp"
+        android:layout_height="56dp"
         android:layout_marginTop="20dp"
-        android:background="?attr/selectableItemBackgroundBorderless"
-        android:contentDescription="@string/voltar"
+        app:icon="@drawable/ic_close"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/arrowBackIcon" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
